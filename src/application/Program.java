@@ -39,10 +39,15 @@ public class Program {
 		System.out.println("Insert new ID = " + Newseller.getId());	
 		System.out.println();*/
 		
-		System.out.println("==== TEST 5 : Seller Update ====");		
+		/*System.out.println("==== TEST 5 : Seller Update ====");		
 		seller = sellerDao.findById(9);
 		seller.setName("Alessandra Johuson");
 		sellerDao.update(seller);
 		System.out.println("Updade Completed");
+		System.out.println();*/
+		
+		System.out.println("==== TEST 6 : Seller delete ====");		
+		sellerDao.deleteById(4);
+		System.out.println("delete Completed");
 	}
 }
